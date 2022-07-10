@@ -95,7 +95,7 @@
          
          this.floorList = res.message
       },
-      gotoSearch() {
+      gotoSearch(){
         uni.navigateTo({
           url: '/subpkg/search/search'
         })
