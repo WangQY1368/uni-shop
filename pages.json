@@ -21,7 +21,11 @@
                 }
                 ,{
                     "path" : "goods_list/goods_list",
-                    "style" : {}
+                    "style" : {
+                      "onReachBottomDistance": 150,
+                      "enablePullDownRefresh": true,
+                      "backgroundColor":"#F8F8F8"
+                    }
                 }
                 ,{
                     "path" : "search/search",
@@ -37,8 +41,10 @@
     "backgroundColor": "#FFFFFF"
   },
   "tabBar": {
+    
     "selectedColor": "#C00000",
     "list":[
+      
       {
         "pagePath":"pages/home/home",
         "text":"首页",
@@ -65,4 +71,7 @@
       }
     ]
   }
+  
+  
+  
 }

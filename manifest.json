@@ -47,5 +47,6 @@
             "urlCheck" : true,
             "checkSiteMap": false
         }
+        // "lazyCodeLoading": "requiredComponents"
     }
 }
